@@ -1,0 +1,55 @@
+.main{
+	text-align: center;
+	align-items: center;
+	color: #4885ed;
+	width: 33.33%;
+}
+
+.mainInput {
+	padding-bottom: 0px;
+	margin-bottom: 5px;
+}
+
+.input {
+	padding:10px;
+	background-color: #4885ed;
+	color: white;
+	border: 1px solid #222222;
+}
+
+.add {
+	border: 1px solid #222222;
+	background-color: white;
+	padding: 10px;
+	background-color: #4885ed;
+	color: white;
+}
+
+.add:hover {
+	color: #4885ed;
+	background-color: #222222;
+	border: 1px solid #4885ed;
+	cursor: pointer;
+}
+
+.calculate {
+	margin-top: 0px;
+}
+
+.calc {
+	padding: 10px;
+	border: 1px solid white;
+	background-color: #4885ed;
+	color: white;
+}
+
+.calc:hover {
+	color: #4885ed;
+	background-color: #222222;
+	border: 1px solid #4885ed;
+	cursor: pointer;
+}
+
+.number {
+	color: #DB4437;
+}
