@@ -92,7 +92,6 @@ const HookPerson = (props) => {
 
 	return(
 		<div className="main">
-			<h4 className="name">{props.name}</h4>
 			<p className="listOf">{props.name}'s costs: {totalState.list.map((item, index) => (
 				<span>{item}, </span>
 			))}

@@ -2,6 +2,11 @@ body {
     background-color: #222222;
 }
 
+/* h1 {
+    border-bottom: 1px solid #4885ed;
+    padding-bottom: 10px;
+} */
+
 .rowC{
     display:flex;
     flex-direction:row;
