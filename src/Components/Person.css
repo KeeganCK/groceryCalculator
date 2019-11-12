@@ -5,11 +5,9 @@
 	width: 33.33%;
 }
 
-/* .listOf {
-	border: 1px solid #4885ed;
-	margin: 5px;
-	padding: 5px;
-} */
+.listOf {
+	font-size: 25px;
+}
 
 .mainInput {
 	padding-bottom: 0px;
@@ -63,7 +61,10 @@
 .number {
 	color: #DB4437;
 	border: 1px solid #DB4437;
-	padding: 3px;
+	padding-top: 1px;
+	padding-bottom: 3px;
+	padding-right: 8px;
+	padding-left: 8px;
 }
 
 .number:hover {
