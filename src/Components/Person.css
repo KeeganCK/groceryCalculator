@@ -17,20 +17,20 @@
 }
 
 .input {
-	padding:10px;
+	padding: 2%;
 	background-color: #4885ed;
 	color: white;
 	border: 1px solid #222222;
-	width: 26%;
+	width: 25%;
 }
 
 .add {
 	border: 1px solid #222222;
 	background-color: white;
-	padding: 10px;
+	padding: 2%;
 	background-color: #4885ed;
 	color: white;
-	width: 20%;
+	width: 21%;
 }
 
 .add:hover {
@@ -46,7 +46,7 @@
 }
 
 .calc {
-	padding: 10px;
+	padding: 2%;
 	border: 1px solid white;
 	background-color: #4885ed;
 	color: white;
