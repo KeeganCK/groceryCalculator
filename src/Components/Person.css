@@ -5,6 +5,12 @@
 	width: 33.33%;
 }
 
+.listOf {
+	border: 1px solid #4885ed;
+	margin: 5px;
+	padding: 5px;
+}
+
 .mainInput {
 	padding-bottom: 0px;
 	margin-bottom: 5px;
@@ -41,6 +47,7 @@
 	border: 1px solid white;
 	background-color: #4885ed;
 	color: white;
+	width: 28%;
 }
 
 .calc:hover {
@@ -52,4 +59,11 @@
 
 .number {
 	color: #DB4437;
+	border: 1px solid #DB4437;
+	padding: 3px;
+}
+
+.number:hover {
+	color: #00eeff;
+	border: 1px solid #00eeff;
 }

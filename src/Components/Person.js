@@ -59,7 +59,7 @@ const HookPerson = (props) => {
 		}
 	}
 
-	// reset everything
+	// reset total
 	const clear = () => {
 		setTotal({
 			total: 0,
@@ -93,7 +93,7 @@ const HookPerson = (props) => {
 	return(
 		<div className="main">
 			<h4 className="name">{props.name}</h4>
-			<p>{props.name}'s costs: {totalState.list.map((item, index) => (
+			<p className="listOf">{props.name}'s costs: {totalState.list.map((item, index) => (
 				<span>{item}, </span>
 			))}
 			</p>
