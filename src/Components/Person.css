@@ -21,6 +21,7 @@
 	background-color: #4885ed;
 	color: white;
 	border: 1px solid #222222;
+	width: 26%;
 }
 
 .add {
@@ -29,6 +30,7 @@
 	padding: 10px;
 	background-color: #4885ed;
 	color: white;
+	width: 20%;
 }
 
 .add:hover {
@@ -40,6 +42,7 @@
 
 .calculate {
 	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 .calc {
@@ -47,7 +50,7 @@
 	border: 1px solid white;
 	background-color: #4885ed;
 	color: white;
-	width: 28%;
+	width: 50%;
 }
 
 .calc:hover {

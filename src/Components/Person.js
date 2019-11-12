@@ -100,14 +100,20 @@ const HookPerson = (props) => {
 				<input type="text" className="input" value={totalState.value} onChange={changeHandler} onKeyDown={keyHandler}/>
 				<button type="submit" className="add" onClick={addItem}>Add</button>
 			</p>
-			<button className="calc" onClick={deleteItem}>Delete</button>
-			<button className="calc" onClick={clear}>Clear Total</button>
-			<button className="calc" onClick={emptyList}>Clear List</button>
+			<p className="calculate"><button className="calc" onClick={deleteItem}>Delete</button></p>
+			<p className="calculate"><button className="calc" onClick={clear}>Clear Total</button></p>
+			<p className="calculate"><button className="calc" onClick={emptyList}>Clear List</button></p>
 			<p className="calculate"><button className="calc" onClick={calculate}>Calculate Total</button></p>
+
 			<h2 className="total">Total for {props.name} = <span className="number">{totalState.total} </span></h2>
 		</div>
 	);
 }
+
+// <button className="calc" onClick={deleteItem}>Delete</button>
+// <button className="calc" onClick={clear}>Clear Total</button>
+// <button className="calc" onClick={emptyList}>Clear List</button>
+// <p className="calculate"><button className="calc" onClick={calculate}>Calculate Total</button></p>
 
 
 export default HookPerson;
