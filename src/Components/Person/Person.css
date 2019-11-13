@@ -67,7 +67,14 @@
 	padding-left: 8px;
 }
 
-.number:hover {
+.graph {
+	width: 80%;
+	height: 45%;
+	color: white;
+}
+
+/* .number:hover {
 	color: #00eeff;
 	border: 1px solid #00eeff;
-}
+	font-size: 40px;
+} */

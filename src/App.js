@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './App.css';
-import HookPerson from './Components/Person';
+import HookPerson from './Components/Person/Person';
+
 const App = props => {
 
   return (
